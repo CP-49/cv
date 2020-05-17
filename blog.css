@@ -1,0 +1,19 @@
+body {
+  /* background-image: url(https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg); */
+   background-color: linear-gradient(red,yellow);
+   height:1300px;
+   width:1200px;
+}
+
+div .header {
+  -webkit-tap-highlight-color: transparent;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+font-family: sans-serif;
+box-sizing: inherit;
+height: 500px;
+width: 100%;
+background-image: url(https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg);
+}

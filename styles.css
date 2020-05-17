@@ -1,0 +1,514 @@
+body {
+  font-family: sans-serif;
+}
+
+
+/* top_nav_bar - Section*/
+
+.top-nav-div {
+  position: fixed;
+  width:100%;
+  z-index: 1;
+}
+
+.nav-main {
+  padding: 0 10%;
+}
+
+.logo {
+  position: relative;
+  width: 30%;
+}
+
+.nav-social {
+  position: relative;
+  right: 10%;
+}
+
+.navbar-text {
+  position: relative;
+  font-size: 1.2rem;
+  left: 58%;
+}
+
+/* side_nav_bar - Section */
+
+.vertical-menu {
+  position: fixed;
+  padding: 8% 8% 8% 10%;
+  font-size: 1.2rem;
+  z-index: 1;
+}
+
+.side-bar {
+  background-color: rgb(86, 61, 124);
+  color: #fff;
+  border-radius: 0 !important;
+  transition: 0.4s;
+}
+
+.side-bar:hover {
+  background-color: #007BFF;
+  color: white;
+}
+
+/* horizontal-side_nav_bar */
+
+.h-m {
+  display: none;
+}
+
+/* home -section */
+
+.home {
+position: static;
+height: 630px;
+width: 100%;
+background: url(IMAGES\HEADER\BG-1.jpg);
+z-index: -1;
+}
+
+.home-img {
+position: absolute;
+z-index: -1;
+height: 690px;
+width: 100%;
+}
+
+.home-header {
+position: relative;
+line-height: 1;
+text-align: left;
+top: 20px;
+}
+
+.header-name {
+font-size:3rem;
+font-family: sans-serif;
+color: white;
+width: 65%;
+text-align: left;
+}
+
+.header-profession {
+font-size: 3.5rem;
+font-family: sans-serif;
+color: white;
+width: 65%;
+text-align: left;
+}
+
+.header-tagline  {
+font-size: 1.3rem;
+font-family: sans-serif;
+color: white;
+width: 65%;
+}
+
+.objective-content {
+  margin-top: 40px;
+  line-height: 1.6  ;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: rgb(86, 61, 124);
+  height: 250px;
+  padding: 2% ;
+  border-radius: 0 20px 20px 0;
+  right: 20px;
+}
+
+.p-pic-header {
+  margin: 40px 0;
+  padding-right: 0;
+  height: 250px;
+  text-align: right;
+  right: 20px;
+}
+
+.p-pic {
+  height: 100%;
+  border-radius: 20px 0 0 20px;
+}
+
+/* experience section and education-section */
+
+
+.education-header{
+  color: Black;
+  margin-top: 20px;
+}
+
+.education-hr {
+  width: 103.5%;
+  background-color: rgb(86, 61, 124);
+  background-color: rgba(86, 61, 124, 0.9);
+  height: 10px;
+  border-radius: 5px;
+  position: relative;
+  right: 15px;
+  margin-bottom: 20px;
+}
+
+.education-row {
+  position: relative;
+  top: 80px;
+  left: 25%;
+}
+
+.school-header {
+padding: 3% 2%;
+line-height: 1.5;
+background-color: rgb(86, 61, 124);
+background-color: rgba(86, 61, 124, 0.6);
+border-radius: 20px 0 0 20px;
+margin: 20px 0;
+
+}
+
+.school-content {
+padding: 3% 2%;
+line-height: 1.5;
+text-align: justify;
+font-size: 15px;
+background-color: #007BFF;
+background-color: rgba(196, 233, 239, 0.8);
+border-radius: 0 20px 20px 0;
+margin: 20px 0;
+}
+
+.college-header {
+font-size: 1.5rem;
+}
+
+
+/* projects section */
+
+.view {
+  background-color: rgb(86, 61, 124);
+  background-color: rgba(86, 61, 124, 0.9);
+}
+
+
+/* skills section */
+
+.skill-header {
+  padding: 3% 2%;
+  line-height: 1.5;
+  background-color: rgb(86, 61, 124);
+  background-color: rgba(86, 61, 124, 0.6);
+}
+
+.skill-content {
+  padding: 3% 2%;
+  line-height: 1.5;
+  text-align: justify;
+  font-size: 15px;
+  background-color: #007BFF;
+  background-color: rgba(196, 233, 239, 0.8);
+  margin-bottom: 20px;
+}
+
+.skills-row {
+  margin-top: 50px;
+}
+
+
+/* languages-section */
+
+.ability-score {
+float: right;
+text-align: left;
+}
+
+
+/* contact-section */
+
+.contact-header {
+  top: 90px;
+}
+
+.contact-coffee {
+  background-color: rgb(86, 61, 124);
+  background-color: rgba(86, 61, 124, 0.6);
+  margin: 0;
+  top: 100px;
+  border-radius: 20px 20px 0 0;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+}
+
+
+/* footer-section */
+
+.footer {
+  position: relative;
+  top: 100px;
+  background-color: rgb(86, 61, 124);
+  background-color: rgba(86, 61, 124, 0.9);
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  padding: 5%;
+}
+
+
+/* for mobile */
+
+@media (max-width: 1000px) {
+
+  body {
+    font-family: sans-serif;
+  }
+
+
+  /* top_nav_bar - Section*/
+
+  .top-nav-div {
+    position: fixed;
+    width:100%;
+    z-index: 1;
+  }
+
+  .nav-main {
+    padding: 0 10%;
+  }
+
+  .logo {
+    position: relative;
+    width: 30%;
+  }
+
+  .nav-social {
+    position: relative;
+    right: 14%;
+    display: none;
+  }
+
+  .navbar-text {
+    position: relative;
+    font-size: 1.2rem;
+    left: 58%;
+  }
+
+  /* side_nav_bar - Section */
+
+  .vertical-menu {
+    position: fixed;
+    padding: 8% 8% 8% 10%;
+    font-size: 1.2rem;
+    z-index: 1;
+    display: none;
+  }
+
+  /* horizontal side_nav_bar */
+
+  /* home -section */
+
+  .home {
+  position: static;
+  height: 1000px;
+  width: 100%;
+  z-index: -1;
+  }
+
+  .home-img {
+  position: absolute;
+  z-index: -1;
+  height: 1050px;
+  width: 100%;
+  }
+
+  .home-header {
+  position: relative;
+  line-height: 1;
+  text-align: left;
+  top: 50px;
+  }
+
+  .header-name {
+  font-size:2.5rem;
+  font-family: sans-serif;
+  color: white;
+  width: 100%;
+  text-align: center;
+  }
+
+  .header-profession {
+  font-size: 3.5rem;
+  font-family: sans-serif;
+  color: white;
+  width: 100%;
+  text-align: center;
+  }
+
+  .header-tagline  {
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  color: white;
+  width: 100%;
+  text-align: center;
+  }
+
+  .objective-content {
+    margin: 5px 3% 0 2%;
+    line-height: 1.6  ;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: rgb(86, 61, 124);
+    padding: 2% ;
+    border-radius: 20px;
+    left: 1.6px;
+    height: auto;
+    text-align: justify;
+  }
+
+  .p-pic-header {
+    margin: 40px 0;
+    height: 250px;
+    text-align: center;
+    margin-left: 20px;
+  }
+
+  .p-pic {
+    height: 100%;
+    border-radius: 20px;
+  }
+
+  /* experience section and education-section */
+
+
+  .education-header{
+    color: Black;
+    margin-top: 20px;
+  }
+
+  .education-hr {
+    width: 105%;
+    background-color: rgb(86, 61, 124);
+    background-color: rgba(86, 61, 124, 0.9);
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .education-row {
+    position: relative;
+    top: 80px;
+    left: 0px;
+    margin: auto;
+  }
+
+  .school-header {
+  padding: 3% 2%;
+  line-height: 1.5;
+  background-color: rgb(86, 61, 124);
+  background-color: rgba(86, 61, 124, 0.6);
+  border-radius: 20px 20px 0 0;
+  margin: 20px 0 0;
+
+  }
+
+  .school-content {
+  padding: 3% 2%;
+  line-height: 1.5;
+  text-align: justify;
+  font-size: 15px;
+  background-color: #007BFF;
+  background-color: rgba(196, 233, 239, 0.8);
+  border-radius: 0 0 20px 20px;
+  margin: 0;
+  }
+
+  .college-header {
+  font-size: 1.5rem;
+  }
+
+
+  /* projects section */
+
+  .view {
+    background-color: rgb(86, 61, 124);
+    background-color: rgba(86, 61, 124, 0.9);
+  }
+
+
+  /* skills section */
+
+  .card-col {
+    margin: 0 10%;
+  }
+
+  .skill-header {
+    padding: 3% 2%;
+    line-height: 1.5;
+    background-color: rgb(86, 61, 124);
+    background-color: rgba(86, 61, 124, 0.6);
+  }
+
+  .skill-content {
+    padding: 3% 2%;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 15px;
+    background-color: #007BFF;
+    background-color: rgba(196, 233, 239, 0.8);
+    margin-bottom: 20px;
+  }
+
+  .skills-row {
+    margin-top: 50px;
+  }
+
+
+  /* languages-section */
+
+  .ability-score {
+  float: right;
+  text-align: left;
+  }
+
+
+  /* contact-section */
+
+  .contact-header {
+    top: 100px;
+    margin: auto;
+  }
+
+  .contact-coffee {
+    background-color: rgb(86, 61, 124);
+    background-color: rgba(86, 61, 124, 0.6);
+    margin: auto;
+    top: 105px;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+  }
+
+  .contact-hr {
+    border-radius: 0;
+    width: 100;
+    margin-bottom: 20px;
+  }
+
+  /* footer-section */
+
+  .footer {
+    position: relative;
+    top: 100px;
+    background-color: rgb(86, 61, 124);
+    background-color: rgba(86, 61, 124, 0.9);
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 5%;
+
+  }
+
+}
